@@ -1,0 +1,77 @@
+ h1{
+    color: black;
+    text-shadow: -2px -2px 5px rgb(68, 178, 206);
+    text-indent: 20%;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    text-decoration-color: darkcyan;
+}
+.submit {
+    display:inline-block;
+    color: black;
+    background-color:rgb(21, 155, 196);
+    margin:0;
+    padding: 5px;
+    border: 0;
+    font-weight: bold;
+    width:100%;
+    
+}
+.submit:hover {
+    color: black(10, 236, 252);
+    background-color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.form-group {
+    background-color: gray;
+    display: inline-block;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 20px 5px black;
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+    max-width: 400px;
+    border-top: aquamarine;
+    
+}
+
+.parent{
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 670px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: #626f92;
+    box-shadow: rgb(139, 139, 95);
+  }
+
+
+
+.par-text{
+    margin: 30px 30px 30px 10px;
+    color:black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px 0 0 5px;
+    height: 670px;
+  }
+ 
+
+.labels{
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #024657;
+  }
+
+  .jumbotron.parent{
+      background-image: url(trial.jpg);
+      background-size: cover;
+  }
