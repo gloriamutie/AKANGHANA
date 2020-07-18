@@ -75,3 +75,7 @@
       background-image: url(trial.jpg);
       background-size: cover;
   }
+  .radio-button{
+    color:#e08613;
+    font-weight: bolder;
+  }
