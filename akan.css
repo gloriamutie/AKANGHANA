@@ -28,11 +28,8 @@
     background-color: gray;
     display: inline-block;
     box-sizing: content-box;
-<<<<<<< HEAD
     box-shadow: 2px 2px 20px 5px aquamarine;
-=======
     box-shadow: 2px 2px 10px aquamarine;
->>>>>>> gh-pages
     margin: 10px;
     padding: 10px;
     width:100%;
@@ -76,21 +73,17 @@
   }
 
   .jumbotron.parent{
-<<<<<<< HEAD
+
       background-image: url(trial.jpg);
       background-size: cover;
-  }
-  .radio-button{
-    color:#e08613;
-    font-weight: bolder;
-=======
-    background: url(trial.jpg )no-repeat center center; 
-    background-size: cover;
-    height: 670px;
+      background: url(trial.jpg )no-repeat center center; 
+      background-size: cover;
+      height: 670px;
 }
   
   .radio-button{
-      font-weight: bolder;
-      color: chocolate;
->>>>>>> gh-pages
+    color:#e08613;
+    font-weight: bolder;
+    
+
   }
