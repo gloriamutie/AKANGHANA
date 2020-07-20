@@ -1,5 +1,5 @@
-var akanMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-var akanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+var akanMale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+var akanFemale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 function results() {
@@ -26,9 +26,9 @@ function results() {
     }
 
     if(gender === "male") {
-        akan =akanMale[day2];
+       var akan =akanMale[day2];
     }else{
-            akan =akanFemale[day2];
+            var akan =akanFemale[day2];
     }
             alert("You were born on   " + dayOfTheWeek [day2] + "  and your akan name is " + akan);
 }
